@@ -1,0 +1,2156 @@
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background: #006666; }
+
+/* line 11, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+#home {
+  width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: url("..//images/background/wallpaper.jpg"); }
+  /* line 22, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+  #home h1.home--title {
+    font-family: "main-font";
+    font-size: 7em;
+    margin: 30vh 10rem 2rem 10rem; }
+  /* line 27, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+  #home h2.home--subTitle {
+    font-family: "second-font";
+    font-size: 1.6em;
+    background: rgba(163, 163, 163, 0.3);
+    margin: 0 10rem 2rem 10rem; }
+  /* line 33, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+  #home h3.home--thirdTitle {
+    font-family: "third-font";
+    font-size: 0.9em;
+    margin: 0 10rem 2rem 10rem; }
+  /* line 38, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+  #home .home--icons {
+    height: auto;
+    margin: 0 10rem 10rem 10rem; }
+    /* line 42, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+    #home .home--icons a {
+      display: inline-block;
+      margin: 0 0.2em; }
+    /* line 46, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+    #home .home--icons .fab {
+      color: #f2f2f2; }
+      /* line 49, ../../../Desktop/CV edit/sass/modules/_home-dir.sass */
+      #home .home--icons .fab:hover {
+        -webkit-transition: 250ms ease-out;
+        -moz-transition: 250ms ease-out;
+        -o-transition: 250ms ease-out;
+        transition: 250ms ease-out;
+        color: #d0322e; }
+  @media only screen and (max-width: 320px) {
+    /* line 51, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h1.home--title {
+      font-size: 3em;
+      margin: 20vh 1rem 2vh 1rem; }
+    /* line 55, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h2.home--subTitle {
+      font-size: 1.1em;
+      margin: 0vh 1rem 2vh 1rem; }
+    /* line 59, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h3.home--thirdTitle {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 63, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home .home--icons {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 67, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 70, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .bio--title {
+        font-size: 2.5em; }
+      /* line 73, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .bio--text {
+        font-size: 1.3em !important; }
+      /* line 76, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .image--item {
+        width: 10rem;
+        height: 10rem; }
+      /* line 79, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .bio--sub-text {
+        font-size: 1em; }
+      /* line 82, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .listText {
+        font-size: 1em; }
+      /* line 85, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .mixes {
+        font-size: 0.9em; }
+      /* line 88, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 92, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 96, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 99, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 102, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 105, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 108, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 111, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 114, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 117, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #work .work--item {
+        width: 100%; }
+    /* line 120, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 123, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #contact .contact--item {
+        width: 100%;
+        font-size: 0.7em; }
+    /* line 127, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home footer {
+      top: 4rem;
+      font-size: 0.8em; } }
+  @media only screen and (min-width: 321px) and (max-width: 719px) {
+    /* line 132, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h1.home--title {
+      font-size: 4em !important;
+      margin: 25vh 1rem 2vh 1rem !important; }
+    /* line 136, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h2.home--subTitle {
+      margin: 0vh 1rem 2vh 1rem !important; }
+    /* line 139, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h3.home--thirdTitle {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 142, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home .home--icons {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 145, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 148, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 152, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 156, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 159, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 162, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 165, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 168, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 171, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 174, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 177, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #work .work--item {
+        width: 100%; }
+    /* line 180, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 183, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
+    /* line 187, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h1.home--title {
+      font-size: 6em;
+      margin: 22vh 4rem 2vh 4rem; }
+    /* line 191, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h2.home--subTitle {
+      margin: 0vh 4rem 2vh 4rem !important; }
+    /* line 194, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h3.home--thirdTitle {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 197, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home .home--icons {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 200, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #about {
+      margin: auto 4rem auto 4rem; }
+      /* line 202, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .image--item {
+        width: 13em;
+        height: 13em; }
+      /* line 205, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 208, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 211, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 214, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 217, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 220, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 223, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #work {
+      margin: auto 4rem auto 4rem; }
+      /* line 226, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #work .work--item {
+        width: 100%; }
+    /* line 229, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #contact {
+      margin: auto 4rem auto 4rem; }
+      /* line 232, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 1699px) {
+    /* line 236, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h1.home--title {
+      font-size: 6em !important;
+      margin: 35vh 15rem 2vh 15rem !important; }
+    /* line 240, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h2.home--subTitle {
+      margin: 0vh 15rem 2vh 15rem !important; }
+    /* line 243, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home h3.home--thirdTitle {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 246, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home .home--icons {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 249, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #about {
+      margin: auto 15rem auto 15rem; }
+    /* line 252, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #work {
+      margin: auto 15rem auto 15rem;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      /* line 256, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #home #work .work--item {
+        width: 32%; }
+    /* line 259, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #home #contact {
+      margin: auto 15rem auto 15rem; } }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.menu-btn {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  z-index: 999;
+  cursor: pointer;
+  margin-right: 1rem;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+  /* line 13, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu-btn .btn-line {
+    width: 40px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  /* line 20, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu-btn.close {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg); }
+    /* line 24, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-btn.close .btn-line:nth-child(1) {
+      -webkit-transform: rotate(45deg) translate(5px, 5px);
+      -ms-transform: rotate(45deg) translate(5px, 5px);
+      transform: rotate(45deg) translate(5px, 5px); }
+    /* line 27, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-btn.close .btn-line:nth-child(2) {
+      opacity: 0; }
+    /* line 30, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-btn.close .btn-line:nth-child(3) {
+      -webkit-transform: rotate(-45deg) translate(7px, -6px);
+      -ms-transform: rotate(-45deg) translate(7px, -6px);
+      transform: rotate(-45deg) translate(7px, -6px); }
+
+/* line 33, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+  visibility: hidden;
+  background: #0d0d0d; }
+  @media only screen and (max-width: 719px) {
+    /* line 264, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    .menu .menu-branding {
+      display: none; }
+    /* line 267, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    .menu .menu-nav {
+      width: 100% !important;
+      height: 100vh !important; } }
+  /* line 43, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu.show {
+    visibility: visible; }
+  /* line 46, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu-branding, .menu-nav {
+    width: 50%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    float: left;
+    overflow: hidden; }
+  /* line 56, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: rgba(38, 38, 38, 0.9);
+    list-style: none;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    /* line 64, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-nav.show {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+  /* line 67, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu-branding {
+    background: rgba(15, 15, 15, 0.9);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    /* line 72, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-branding.show {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+    /* line 75, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu-branding .portrait {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+      border: 3px solid #d0322e;
+      background: white;
+      background: url("..//images/background/profile.jpg"); }
+  /* line 83, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu .nav-item {
+    width: 100%;
+    height: auto;
+    margin: 1px 0;
+    text-align: center;
+    -webkit-transform: translate3d(600px, 0, 0);
+    transform: translate3d(600px, 0, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    /* line 91, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu .nav-item.show {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+  /* line 94, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu .nav-link {
+    display: inline-block;
+    position: relative;
+    padding: 1em 0;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+    font-family: "second-font", sans-serif;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 1em;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    /* line 104, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu .nav-link:hover {
+      color: #d0322e;
+      -webkit-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+  /* line 108, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+  .menu .nav-icon {
+    display: inline-block;
+    position: relative;
+    padding: 1em 0;
+    margin: 0 0.1em;
+    color: #f2f2f2;
+    font-size: 1em;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    /* line 116, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+    .menu .nav-icon:hover {
+      color: #d0322e;
+      -webkit-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+
+/* line 121, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.nav-item:nth-child(1) {
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+/* line 121, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.nav-item:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
+
+/* line 121, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.nav-item:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s; }
+
+/* line 121, ../../../Desktop/CV edit/sass/modules/_navbar-dir.sass */
+.nav-item:nth-child(4) {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_about-dir.sass */
+section {
+  width: auto;
+  height: auto;
+  margin: 3rem 10rem 0 10rem;
+  padding: 0;
+  background: rgba(38, 38, 38, 0.6); }
+
+/* line 10, ../../../Desktop/CV edit/sass/modules/_about-dir.sass */
+#about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 0.3em; }
+  /* line 16, ../../../Desktop/CV edit/sass/modules/_about-dir.sass */
+  #about .about--item {
+    width: auto;
+    height: auto;
+    padding: 0 1rem;
+    background: rgba(163, 163, 163, 0.3); }
+    /* line 24, ../../../Desktop/CV edit/sass/modules/_about-dir.sass */
+    #about .about--item .image--item {
+      width: 17em;
+      height: 17em;
+      margin: 8vh auto 0 auto;
+      border-radius: 50%;
+      border: 3px solid #d0322e;
+      background: #ffcc99;
+      opacity: 1;
+      background: url("..//images/background/profile.jpg"); }
+  /* line 34, ../../../Desktop/CV edit/sass/modules/_about-dir.sass */
+  #about .bio {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4; }
+  @media only screen and (max-width: 320px) {
+    /* line 51, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h1.home--title {
+      font-size: 3em;
+      margin: 20vh 1rem 2vh 1rem; }
+    /* line 55, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h2.home--subTitle {
+      font-size: 1.1em;
+      margin: 0vh 1rem 2vh 1rem; }
+    /* line 59, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h3.home--thirdTitle {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 63, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about .home--icons {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 67, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 70, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .bio--title {
+        font-size: 2.5em; }
+      /* line 73, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .bio--text {
+        font-size: 1.3em !important; }
+      /* line 76, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .image--item {
+        width: 10rem;
+        height: 10rem; }
+      /* line 79, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .bio--sub-text {
+        font-size: 1em; }
+      /* line 82, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .listText {
+        font-size: 1em; }
+      /* line 85, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .mixes {
+        font-size: 0.9em; }
+      /* line 88, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 92, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 96, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 99, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 102, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 105, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 108, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 111, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 114, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 117, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #work .work--item {
+        width: 100%; }
+    /* line 120, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 123, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #contact .contact--item {
+        width: 100%;
+        font-size: 0.7em; }
+    /* line 127, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about footer {
+      top: 4rem;
+      font-size: 0.8em; } }
+  @media only screen and (min-width: 321px) and (max-width: 719px) {
+    /* line 132, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h1.home--title {
+      font-size: 4em !important;
+      margin: 25vh 1rem 2vh 1rem !important; }
+    /* line 136, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h2.home--subTitle {
+      margin: 0vh 1rem 2vh 1rem !important; }
+    /* line 139, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h3.home--thirdTitle {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 142, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about .home--icons {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 145, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 148, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 152, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 156, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 159, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 162, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 165, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 168, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 171, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 174, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 177, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #work .work--item {
+        width: 100%; }
+    /* line 180, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 183, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
+    /* line 187, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h1.home--title {
+      font-size: 6em;
+      margin: 22vh 4rem 2vh 4rem; }
+    /* line 191, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h2.home--subTitle {
+      margin: 0vh 4rem 2vh 4rem !important; }
+    /* line 194, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h3.home--thirdTitle {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 197, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about .home--icons {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 200, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #about {
+      margin: auto 4rem auto 4rem; }
+      /* line 202, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .image--item {
+        width: 13em;
+        height: 13em; }
+      /* line 205, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 208, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 211, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 214, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 217, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 220, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 223, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #work {
+      margin: auto 4rem auto 4rem; }
+      /* line 226, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #work .work--item {
+        width: 100%; }
+    /* line 229, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #contact {
+      margin: auto 4rem auto 4rem; }
+      /* line 232, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 1699px) {
+    /* line 236, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h1.home--title {
+      font-size: 6em !important;
+      margin: 35vh 15rem 2vh 15rem !important; }
+    /* line 240, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h2.home--subTitle {
+      margin: 0vh 15rem 2vh 15rem !important; }
+    /* line 243, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about h3.home--thirdTitle {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 246, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about .home--icons {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 249, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #about {
+      margin: auto 15rem auto 15rem; }
+    /* line 252, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #work {
+      margin: auto 15rem auto 15rem;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      /* line 256, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #about #work .work--item {
+        width: 32%; }
+    /* line 259, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #about #contact {
+      margin: auto 15rem auto 15rem; } }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+#work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+  /* line 10, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+  #work .work--item {
+    width: 48%;
+    margin: 5px;
+    border: 2px solid #d0322e;
+    font-family: "second-font";
+    font-size: 1em; }
+    /* line 17, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+    #work .work--item .theme {
+      width: auto;
+      height: 22rem;
+      background: #66ccff; }
+    /* line 24, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+    #work .work--item:hover {
+      cursor: pointer;
+      background: #d0322e;
+      color: #d0322e;
+      -webkit-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+    /* line 30, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+    #work .work--item .info {
+      width: auto;
+      padding: 1rem 0;
+      text-align: center;
+      color: #f2f2f2;
+      font-size: 1em;
+      text-decoration: none;
+      text-transform: capitalize;
+      word-break: break-word;
+      background: rgba(163, 163, 163, 0.3); }
+      /* line 41, ../../../Desktop/CV edit/sass/modules/_work-dir.sass */
+      #work .work--item .info .info--text {
+        background: transparent; }
+  @media only screen and (max-width: 320px) {
+    /* line 51, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h1.home--title {
+      font-size: 3em;
+      margin: 20vh 1rem 2vh 1rem; }
+    /* line 55, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h2.home--subTitle {
+      font-size: 1.1em;
+      margin: 0vh 1rem 2vh 1rem; }
+    /* line 59, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h3.home--thirdTitle {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 63, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work .home--icons {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 67, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 70, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .bio--title {
+        font-size: 2.5em; }
+      /* line 73, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .bio--text {
+        font-size: 1.3em !important; }
+      /* line 76, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .image--item {
+        width: 10rem;
+        height: 10rem; }
+      /* line 79, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .bio--sub-text {
+        font-size: 1em; }
+      /* line 82, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .listText {
+        font-size: 1em; }
+      /* line 85, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .mixes {
+        font-size: 0.9em; }
+      /* line 88, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 92, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 96, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 99, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 102, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 105, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 108, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 111, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 114, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 117, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #work .work--item {
+        width: 100%; }
+    /* line 120, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 123, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #contact .contact--item {
+        width: 100%;
+        font-size: 0.7em; }
+    /* line 127, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work footer {
+      top: 4rem;
+      font-size: 0.8em; } }
+  @media only screen and (min-width: 321px) and (max-width: 719px) {
+    /* line 132, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h1.home--title {
+      font-size: 4em !important;
+      margin: 25vh 1rem 2vh 1rem !important; }
+    /* line 136, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h2.home--subTitle {
+      margin: 0vh 1rem 2vh 1rem !important; }
+    /* line 139, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h3.home--thirdTitle {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 142, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work .home--icons {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 145, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 148, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 152, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 156, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 159, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 162, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 165, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 168, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 171, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 174, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 177, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #work .work--item {
+        width: 100%; }
+    /* line 180, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 183, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
+    /* line 187, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h1.home--title {
+      font-size: 6em;
+      margin: 22vh 4rem 2vh 4rem; }
+    /* line 191, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h2.home--subTitle {
+      margin: 0vh 4rem 2vh 4rem !important; }
+    /* line 194, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h3.home--thirdTitle {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 197, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work .home--icons {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 200, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #about {
+      margin: auto 4rem auto 4rem; }
+      /* line 202, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .image--item {
+        width: 13em;
+        height: 13em; }
+      /* line 205, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 208, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 211, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 214, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 217, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 220, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 223, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #work {
+      margin: auto 4rem auto 4rem; }
+      /* line 226, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #work .work--item {
+        width: 100%; }
+    /* line 229, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #contact {
+      margin: auto 4rem auto 4rem; }
+      /* line 232, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 1699px) {
+    /* line 236, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h1.home--title {
+      font-size: 6em !important;
+      margin: 35vh 15rem 2vh 15rem !important; }
+    /* line 240, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h2.home--subTitle {
+      margin: 0vh 15rem 2vh 15rem !important; }
+    /* line 243, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work h3.home--thirdTitle {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 246, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work .home--icons {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 249, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #about {
+      margin: auto 15rem auto 15rem; }
+    /* line 252, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #work {
+      margin: auto 15rem auto 15rem;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      /* line 256, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #work #work .work--item {
+        width: 32%; }
+    /* line 259, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #work #contact {
+      margin: auto 15rem auto 15rem; } }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_contact-dir.sass */
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+  /* line 10, ../../../Desktop/CV edit/sass/modules/_contact-dir.sass */
+  #contact .contact--item {
+    width: 31%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 5px;
+    border: 2px solid #d0322e; }
+    /* line 16, ../../../Desktop/CV edit/sass/modules/_contact-dir.sass */
+    #contact .contact--item .item--title {
+      font-size: 1.2em;
+      font-family: "second-font";
+      text-align: center; }
+  @media only screen and (max-width: 320px) {
+    /* line 51, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h1.home--title {
+      font-size: 3em;
+      margin: 20vh 1rem 2vh 1rem; }
+    /* line 55, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h2.home--subTitle {
+      font-size: 1.1em;
+      margin: 0vh 1rem 2vh 1rem; }
+    /* line 59, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h3.home--thirdTitle {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 63, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact .home--icons {
+      font-size: 0.8em;
+      margin: 3vh 1rem 3vh 1rem; }
+    /* line 67, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 70, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .bio--title {
+        font-size: 2.5em; }
+      /* line 73, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .bio--text {
+        font-size: 1.3em !important; }
+      /* line 76, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .image--item {
+        width: 10rem;
+        height: 10rem; }
+      /* line 79, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .bio--sub-text {
+        font-size: 1em; }
+      /* line 82, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .listText {
+        font-size: 1em; }
+      /* line 85, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .mixes {
+        font-size: 0.9em; }
+      /* line 88, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 92, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 96, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 99, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 102, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 105, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 108, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 111, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 114, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 117, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #work .work--item {
+        width: 100%; }
+    /* line 120, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 123, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #contact .contact--item {
+        width: 100%;
+        font-size: 0.7em; }
+    /* line 127, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact footer {
+      top: 4rem;
+      font-size: 0.8em; } }
+  @media only screen and (min-width: 321px) and (max-width: 719px) {
+    /* line 132, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h1.home--title {
+      font-size: 4em !important;
+      margin: 25vh 1rem 2vh 1rem !important; }
+    /* line 136, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h2.home--subTitle {
+      margin: 0vh 1rem 2vh 1rem !important; }
+    /* line 139, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h3.home--thirdTitle {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 142, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact .home--icons {
+      margin: 5vh 1rem 5vh 1rem !important; }
+    /* line 145, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #about {
+      margin: auto 1rem auto 1rem; }
+      /* line 148, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .image {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; }
+      /* line 152, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .bio {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 2;
+        grid-row: 2/2; }
+      /* line 156, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 159, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 162, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 165, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 168, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 171, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 174, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #work {
+      margin: auto 1rem auto 1rem; }
+      /* line 177, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #work .work--item {
+        width: 100%; }
+    /* line 180, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #contact {
+      margin: auto 1rem auto 1rem; }
+      /* line 183, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
+    /* line 187, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h1.home--title {
+      font-size: 6em;
+      margin: 22vh 4rem 2vh 4rem; }
+    /* line 191, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h2.home--subTitle {
+      margin: 0vh 4rem 2vh 4rem !important; }
+    /* line 194, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h3.home--thirdTitle {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 197, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact .home--icons {
+      margin: 5vh 4rem 5vh 4rem !important; }
+    /* line 200, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #about {
+      margin: auto 4rem auto 4rem; }
+      /* line 202, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .image--item {
+        width: 13em;
+        height: 13em; }
+      /* line 205, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .skills {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 208, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .education {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 211, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .experience {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 214, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .languages {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 217, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .dj-ing {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+      /* line 220, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #about .hobby {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4; }
+    /* line 223, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #work {
+      margin: auto 4rem auto 4rem; }
+      /* line 226, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #work .work--item {
+        width: 100%; }
+    /* line 229, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #contact {
+      margin: auto 4rem auto 4rem; }
+      /* line 232, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #contact .contact--item {
+        width: 100%; } }
+  @media only screen and (min-width: 1699px) {
+    /* line 236, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h1.home--title {
+      font-size: 6em !important;
+      margin: 35vh 15rem 2vh 15rem !important; }
+    /* line 240, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h2.home--subTitle {
+      margin: 0vh 15rem 2vh 15rem !important; }
+    /* line 243, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact h3.home--thirdTitle {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 246, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact .home--icons {
+      margin: 5vh 15rem 5vh 15rem !important; }
+    /* line 249, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #about {
+      margin: auto 15rem auto 15rem; }
+    /* line 252, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #work {
+      margin: auto 15rem auto 15rem;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      /* line 256, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+      #contact #work .work--item {
+        width: 32%; }
+    /* line 259, ../../../Desktop/CV edit/sass/logic/_mixins.sass */
+    #contact #contact {
+      margin: auto 15rem auto 15rem; } }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1, #work .work--item .project-2, #work .work--item .project-3, #work .work--item .project-4, #work .work--item .project-5, #work .work--item .project-6, #home, .menu-branding .portrait, #about .about--item .image--item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* line 8, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#home {
+  text-align: left;
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  word-break: break-word; }
+
+/* line 16, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--title, #about .about--item .bio--text {
+  text-align: left;
+  color: #d0322e;
+  font-size: 4em;
+  font-family: "main-font";
+  text-transform: capitalize;
+  word-break: break-word;
+  margin: 1rem 0; }
+
+/* line 26, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-1 {
+  background-image: url("..//images/projects/project-1.jpg"); }
+/* line 30, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-2 {
+  background-image: url("..//images/projects/project-2.jpg"); }
+/* line 34, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-3 {
+  background-image: url("..//images/projects/project-3.jpg"); }
+/* line 38, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-4 {
+  background-image: url("..//images/projects/project-4.jpg"); }
+/* line 42, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-5 {
+  background-image: url("..//images/projects/project-5.jpg"); }
+/* line 46, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#work .work--item .project-6 {
+  background-image: url("..//images/projects/project-6.jpg"); }
+
+/* line 54, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--text {
+  color: #f2f2f2 !important;
+  font-size: 1.6em !important; }
+/* line 59, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .mixes {
+  font-size: 1.3em;
+  color: #d0322e;
+  font-family: "third-font";
+  text-decoration: none; }
+/* line 65, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .listText {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-family: "second-font";
+  text-transform: none;
+  line-height: 2rem; }
+/* line 72, ../../../Desktop/CV edit/sass/logic/_inherit.sass */
+#about .about--item .bio--sub-text {
+  margin: 1rem 0;
+  text-align: left;
+  word-break: break-word;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: "second-font";
+  line-height: 1.4em; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 4, ../../../Desktop/CV edit/sass/modules/_footer-dir.sass */
+footer {
+  width: 100%;
+  padding: 0.26rem;
+  position: relative;
+  top: 11rem;
+  bottom: 0;
+  background: rgba(38, 38, 38, 0.6);
+  text-align: center;
+  font-family: "main-font";
+  color: #f2f2f2; }
+
+@font-face {
+  font-family: "main-font";
+  src: url("..//fonts/Mosk/Fjalla-Regular.ttf"); }
+@font-face {
+  font-family: "second-font";
+  src: url("..//fonts/Mosk/Mosk-Normal-400.ttf"); }
+@font-face {
+  font-family: "third-font";
+  src: url("..//fonts/Mosk/Mosk-Extra-Bold-800.ttf"); }
+/* line 3, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 11, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+span {
+  color: #d0322e; }
+
+/* line 14, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+html body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; }
+
+/* line 18, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+h1 h2 h3 h4 h5 h6 {
+  font-size: 100%; }
+
+/* line 22, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+ul {
+  list-style: none; }
+
+/* line 25, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+button input select textarea {
+  margin: 0; }
+
+/* line 28, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 31, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+*:before *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* line 34, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+img embed iframe object video {
+  height: auto;
+  max-width: 100%; }
+
+/* line 38, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+audio {
+  max-width: 100%; }
+
+/* line 41, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+iframe {
+  border: 0; }
+
+/* line 44, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 48, ../../../Desktop/CV edit/sass/browser_reset/_reset.sass */
+td th {
+  padding: 0;
+  text-align: left; }
+
+
+
+/*# sourceMappingURL=index.css.map */

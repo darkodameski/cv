@@ -1,0 +1,63 @@
+@import logic/_code-arc
+@import toolkit/_tools
+
+body    
+    width: 100%
+    height: 100%
+    overflow-x: hidden
+    position: relative
+    background: $main-Color
+
+#home
+    width: 100%
+    max-height: 100%
+    height: 100vh
+    +box-Model(0, 0)
+    overflow-x: hidden
+    @extend  %home-text
+    @extend  %background   
+    background: url("..//images/background/wallpaper.jpg")
+    //background-color: $section-Color
+
+    h1.home--title
+        font-family: 'main-font'
+        font-size: ($default-font-size + 6em)
+        +margin-text(30vh, 10rem, 2rem ,10rem)
+
+    h2.home--subTitle
+        font-family: 'second-font'
+        font-size: ($default-font-size + 0.6em)
+        background: rgba(163, 163, 163, 0.3)
+        +margin-text(0, 10rem, 2rem, 10rem)
+
+    h3.home--thirdTitle
+        font-family: 'third-font'
+        font-size: ($default-font-size - 0.1em)
+        +margin-text(0, 10rem, 2rem, 10rem)
+
+    .home--icons
+        height: auto
+        +margin-text(0, 10rem, 10rem, 10rem)
+            
+        a                  
+            display: inline-block
+            margin: 0 0.2em
+
+        .fab 
+            color: $main-text-Color
+                    
+            &:hover
+                +hover-time(250ms)
+                color: $span-Color
+    
+    +respond-to(handhelds)
+        +media-phone
+
+    +respond-to(medium-screens)
+        +media-middle
+
+    +respond-to(wide-screens)
+        +media-wide
+
+    +respond-to(large-screens)
+        +media-extra-wide

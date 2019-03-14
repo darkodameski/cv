@@ -1,0 +1,54 @@
+@import logic/_code-arc
+@import toolkit/_tools
+
+#work
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    flex-flow: wrap
+
+    .work--item
+        width: 48%
+        margin: 5px
+        border: 2px solid $span-Color
+        font-family: 'second-font'
+        font-size: $default-font-size
+
+        .theme
+            width: auto
+            height: $work-item-height
+            background: #66ccff
+
+        @extend %project-section
+
+        &:hover
+            cursor: pointer
+            background: $span-Color 
+            color: $span-Color   
+            +transit
+
+        .info
+            width: auto
+            padding: 1rem 0
+            text-align: center
+            color: $main-text-Color
+            font-size: $default-font-size
+            text-decoration: none
+            text-transform: capitalize
+            word-break: break-word
+            background: rgba(163, 163, 163, 0.3) 
+
+            .info--text
+                background: transparent
+
+    +respond-to(handhelds)
+        +media-phone
+
+    +respond-to(medium-screens)
+        +media-middle
+
+    +respond-to(wide-screens)
+        +media-wide
+
+    +respond-to(large-screens)
+        +media-extra-wide

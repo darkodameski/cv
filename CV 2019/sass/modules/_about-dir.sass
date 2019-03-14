@@ -1,0 +1,48 @@
+@import logic/_code-arc
+@import toolkit/_tools
+
+section
+    width: auto
+    height: auto
+    +box-Model(3rem 10rem 0 10rem, 0) 
+    background: $after-Color
+
+#about
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-auto-rows: minmax(100px, auto)
+    grid-gap: 0.3em
+        
+    .about--item
+        width: auto
+        height: auto
+        padding: 0 1rem
+        background: rgba(163, 163, 163, 0.3)
+        
+        @extend %about-text-merged
+
+        .image--item
+            +portrait-size(17em)
+            margin: 8vh auto 0 auto
+            border-radius: 50%
+            border: 3px solid $span-Color
+            background: #ffcc99
+            opacity: 1
+            background: $home-image-profile
+            @extend  %background
+
+    .bio
+        grid-row: 1 / 2
+        grid-column: 2 / 4
+
+    +respond-to(handhelds)
+        +media-phone
+
+    +respond-to(medium-screens)
+        +media-middle
+
+    +respond-to(wide-screens)
+        +media-wide
+
+    +respond-to(large-screens)
+        +media-extra-wide

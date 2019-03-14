@@ -1,0 +1,122 @@
+@import logic/_code-arc
+@import toolkit/_tools
+
+.menu-btn
+    position: absolute
+    right: 2em
+    top: 2em
+    z-index: 999
+    cursor: pointer
+    margin-right: 1rem
+    +transit
+
+    .btn-line
+        width: 40px
+        height: 3px
+        margin: 0 0 5px 0
+        background: #fff
+        +transit
+        
+    &.close
+        transform: rotate(180deg)
+    
+        .btn-line
+            &:nth-child(1)
+                transform: rotate(45deg) translate(5px, 5px)
+
+            &:nth-child(2)
+                opacity: 0
+
+            &:nth-child(3)
+                transform: rotate(-45deg) translate(7px, -6px)
+
+.menu
+    width: 100%
+    position: fixed
+    top: 0
+    opacity: 0.9
+    visibility: hidden
+    background: $menu-fullscreen-Color
+    +navbar-respond-to (medium-screen)
+        +media-phone-navbar 
+         
+    &.show
+        visibility: visible
+        
+    &-branding, &-nav
+        width: ($width - 50%)
+        height: $height
+        display: flex
+        flex-flow: column wrap
+        align-items: center
+        justify-content: center
+        float: left
+        overflow: hidden
+
+    &-nav
+        margin: 0
+        padding: 0
+        background: darken($menu-Color, 0)
+        list-style: none
+        transform: translate3d(0, -100%, 0)  
+        +transit 
+
+        &.show
+            transform: translate3d(0, 0, 0)
+ 
+    &-branding
+        background: darken($menu-Color, 9)
+        transform: translate3d(0, 100%, 0)
+        +transit
+
+        &.show
+            transform: translate3d(0, 0, 0)
+
+        .portrait
+            +portrait-size(15rem)
+            border-radius: 50%
+            border: 3px solid $span-Color
+            background: rgb(255, 255, 255)
+            background: $home-image-profile
+            @extend  %background 
+
+    .nav-item
+        width: 100%
+        height: auto
+        margin: 1px 0
+        text-align: center
+        transform: translate3d(600px, 0, 0)
+        +transit
+        
+        &.show
+            transform: translate3d(0, 0, 0)
+
+    .nav-link
+        display: inline-block
+        position: relative
+        padding: 1em 0
+        text-decoration-line: none
+        font-family: 'second-font', sans-serif
+        color: $main-text-Color
+        text-transform: uppercase
+        font-size: $default-font-size
+        +transit
+        &:hover
+            color: $span-Color
+            +transit
+
+    .nav-icon
+        display: inline-block
+        position: relative
+        padding: 1em 0
+        margin: 0 0.1em
+        color: $main-text-Color
+        font-size: $default-font-size
+        +transit
+        &:hover
+            color: $span-Color
+            +transit
+
+@for $var from 1 through 4
+    .nav-item:nth-child(#{$var})
+        transition-delay: $var * 0.1s 

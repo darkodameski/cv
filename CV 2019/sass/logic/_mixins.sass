@@ -1,0 +1,269 @@
+@import toolkit/_tools
+
+=box-Model($marg, $pad)
+    margin: $marg
+    padding: $pad
+
+=absolute($zero)
+    position: absolute
+    top: $zero
+    right: $zero
+
+=portrait-size($em)
+    width: $em
+    height: $em
+
+=margin-text($top, $right, $bottom, $left)
+    margin: $top $right $bottom $left
+
+=hover-time($time)
+    -webkit-transition: $time ease-out
+    -moz-transition: $time ease-out
+    -o-transition: $time ease-out
+    transition: $time ease-out
+
+=transit
+    transition: all 0.5s ease-out
+
+=respond-to($media)
+    @if $media == handhelds 
+        @media #{$small-screen}
+            @content
+  
+    @else if $media == medium-screens
+        @media #{$medium-screen}
+            @content
+  
+    @else if $media == wide-screens
+        @media #{$big-screen}
+            @content
+    
+    @else if $media == large-screens
+        @media #{$extra-large-screen}
+            @content
+
+=navbar-respond-to($media)
+    @media #{$navbar-screen}
+        @content
+
+=media-phone 
+
+    h1.home--title
+        font-size: ($default-font-size + 2em)
+        margin: 20vh 1rem 2vh 1rem
+
+    h2.home--subTitle
+        font-size: ($default-font-size + 0.1em)
+        margin: 0vh 1rem 2vh 1rem
+
+    h3.home--thirdTitle
+        font-size: ($default-font-size - 0.2em)
+        margin: 3vh 1rem 3vh 1rem
+
+    .home--icons
+        font-size: ($default-font-size - 0.2em)
+        margin: 3vh 1rem 3vh 1rem
+
+    #about
+        margin: auto 1rem auto 1rem
+
+        .bio--title
+            font-size: ($default-font-size + 1.5em)
+
+        .bio--text
+            font-size: ($default-font-size + 0.3)!important
+
+        .image--item
+            +portrait-size(10rem)
+        
+        .bio--sub-text
+            font-size: $default-font-size
+        
+        .listText
+            font-size: $default-font-size
+
+        .mixes
+            font-size: ($default-font-size - 0.1em)
+        
+        .image
+            grid-column: 1 / 4
+            grid-row: 1 / 2
+
+        .bio
+            grid-column: 1 / 4
+            grid-row: 2 / 2
+
+        .skills
+            grid-column: 1 / 4
+
+        .education
+            grid-column: 1 / 4
+
+        .experience
+            grid-column: 1 / 4
+
+        .languages
+            grid-column: 1 / 4
+
+        .dj-ing
+            grid-column: 1 / 4
+
+        .hobby
+            grid-column: 1 / 4
+
+    #work
+        margin: auto 1rem auto 1rem
+
+        .work--item
+            width: 100%
+
+    #contact
+        margin: auto 1rem auto 1rem
+
+        .contact--item
+            width: 100%
+            font-size: ($default-font-size - 0.3em)
+    
+    footer
+        top: 4rem
+        font-size: ($default-font-size - 0.2em)
+
+=media-middle
+    h1.home--title
+        font-size: ($default-font-size + 3em)!important
+        margin: 25vh 1rem 2vh 1rem!important
+
+    h2.home--subTitle
+        margin: 0vh 1rem 2vh 1rem!important
+
+    h3.home--thirdTitle
+        margin: 5vh 1rem 5vh 1rem!important
+
+    .home--icons
+        margin: 5vh 1rem 5vh 1rem!important
+
+    #about
+        margin: auto 1rem auto 1rem
+
+        .image
+            grid-column: 1 / 4
+            grid-row: 1 / 2
+
+        .bio
+            grid-column: 1 / 4
+            grid-row: 2 / 2
+
+        .skills
+            grid-column: 1 / 4
+
+        .education
+            grid-column: 1 / 4
+
+        .experience
+            grid-column: 1 / 4
+
+        .languages
+            grid-column: 1 / 4
+
+        .dj-ing
+            grid-column: 1 / 4
+
+        .hobby
+            grid-column: 1 / 4
+
+    #work
+        margin: auto 1rem auto 1rem
+
+        .work--item
+            width: 100%
+
+    #contact
+        margin: auto 1rem auto 1rem
+
+        .contact--item
+            width: 100%
+
+=media-wide
+    h1.home--title
+        font-size: ($default-font-size + 5em)
+        margin: 22vh 4rem 2vh 4rem
+
+    h2.home--subTitle
+        margin: 0vh 4rem 2vh 4rem!important
+
+    h3.home--thirdTitle
+        margin: 5vh 4rem 5vh 4rem!important
+
+    .home--icons
+        margin: 5vh 4rem 5vh 4rem!important
+
+    #about
+        margin: auto 4rem auto 4rem
+        .image--item
+            +portrait-size(13em)
+
+        .skills
+            grid-column: 1 / 4
+
+        .education
+            grid-column: 1 / 4
+
+        .experience
+            grid-column: 1 / 4
+
+        .languages
+            grid-column: 1 / 4
+
+        .dj-ing
+            grid-column: 1 / 4
+        
+        .hobby
+            grid-column: 1 / 4
+
+    #work
+        margin: auto 4rem auto 4rem
+
+        .work--item
+            width: 100%
+
+    #contact
+        margin: auto 4rem auto 4rem
+
+        .contact--item
+            width: 100%
+      
+=media-extra-wide
+    h1.home--title
+        font-size: ($default-font-size + 5em)!important
+        margin: 35vh 15rem 2vh 15rem!important
+
+    h2.home--subTitle
+        margin: 0vh 15rem 2vh 15rem!important
+
+    h3.home--thirdTitle
+        margin: 5vh 15rem 5vh 15rem!important
+
+    .home--icons
+        margin: 5vh 15rem 5vh 15rem!important
+
+    #about
+        margin: auto 15rem auto 15rem
+    
+    #work
+        margin: auto 15rem auto 15rem
+        justify-content: space-around
+
+        .work--item
+            width: 32%
+
+    #contact
+        margin: auto 15rem auto 15rem
+
+=media-phone-navbar
+      
+    .menu-branding
+        display: none
+
+    .menu-nav
+        width: $media-navbar-width!important
+        height: 100vh!important

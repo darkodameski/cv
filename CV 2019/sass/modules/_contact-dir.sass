@@ -1,0 +1,31 @@
+@import logic/_code-arc
+@import toolkit/_tools
+
+#contact
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    flex-flow: wrap
+
+    .contact--item
+        width: 31%
+        height: auto
+        padding: 1rem 0
+        margin: 5px
+        border: 2px solid $span-Color
+        .item--title
+            font-size: ($default-font-size + 0.2em)
+            font-family: 'second-font'
+            text-align: center
+
+    +respond-to(handhelds)
+        +media-phone
+
+    +respond-to(medium-screens)
+        +media-middle
+
+    +respond-to(wide-screens)
+        +media-wide
+
+    +respond-to(large-screens)
+        +media-extra-wide

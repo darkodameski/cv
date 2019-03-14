@@ -1,0 +1,80 @@
+@import toolkit/_tools
+
+%background
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+
+%home-text
+  text-align: left
+  color: $main-text-Color
+  font-size: $default-font-size
+  text-transform: capitalize
+  letter-spacing: 0.1rem
+  word-break: break-word
+
+%about-title
+  text-align: left
+  color: $span-Color
+  font-size: ($default-font-size + 3em)
+  font-family: 'main-font'
+  text-transform: capitalize
+  word-break: break-word
+  margin: 1rem 0
+
+%project-section
+  .project-1
+    background-image: url("..//images/projects/project-1.jpg")
+    @extend  %background 
+            
+  .project-2
+    background-image: url("..//images/projects/project-2.jpg")
+    @extend  %background 
+
+  .project-3
+    background-image: url("..//images/projects/project-3.jpg")
+    @extend  %background 
+
+  .project-4
+    background-image: url("..//images/projects/project-4.jpg")
+    @extend  %background 
+
+  .project-5
+    background-image: url("..//images/projects/project-5.jpg")
+    @extend  %background 
+
+  .project-6
+    background-image: url("..//images/projects/project-6.jpg")
+    @extend  %background 
+
+%about-text-merged
+  .bio--title
+    @extend %about-title
+
+  .bio--text
+    @extend %about-title
+    color: $main-text-Color!important
+    font-size: ($default-font-size + 0.6em)!important
+        
+  .mixes
+    font-size: ($default-font-size + 0.3em)
+    color: $span-Color
+    font-family: 'third-font'
+    text-decoration: none
+
+  .listText
+    color: $main-text-Color
+    font-size: ($default-font-size + 0.2em)
+    font-family: 'second-font'
+    text-transform: none
+    line-height: 2rem
+
+  .bio--sub-text
+    margin: 1rem 0
+    text-align: left
+    word-break: break-word
+    text-transform: none
+    color: $main-text-Color
+    font-size: ($default-font-size + 0.3em)
+    font-family: 'second-font'
+    line-height: 1.4em
